@@ -1,0 +1,12 @@
+.Nav .navbar {
+  background-color: #183153;
+}
+.Nav .navbar #dropdown-menu {
+  background-color: #dce6f4;
+}
+.Nav .navbar a {
+  color: #dce6f4;
+}
+.Nav .navbar #dropdown-menu a {
+  color: #183153;
+}

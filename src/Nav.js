@@ -1,11 +1,11 @@
 import React from "react";
-
+import "./Nav.css";
 import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <div className="Navbar">
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div className="Nav">
+      <nav className="navbar navbar-expand-lg fixed-top">
         <button
           className="navbar-toggler"
           type="button"
@@ -37,9 +37,19 @@ export default function Nav() {
               >
                 Publicações
               </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div
+                className="dropdown-menu"
+                id="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+              >
                 <NavLink className="nav-item nav-link" to="/journals">
                   Journals
+                </NavLink>
+                <NavLink className="nav-item nav-link" to="/conferencias">
+                  Conferências
+                </NavLink>
+                <NavLink className="nav-item nav-link" to="/livros">
+                  Livros
                 </NavLink>
               </div>
             </div>
