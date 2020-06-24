@@ -4,9 +4,15 @@
 .Nav .navbar #dropdown-menu {
   background-color: #dce6f4;
 }
-.Nav .navbar a {
-  color: #dce6f4;
+.Nav .navbar .nav-link {
+  color: #81a1ce;
+}
+.Nav .navbar .navbar-brand {
+  color: white;
 }
 .Nav .navbar #dropdown-menu a {
   color: #183153;
+}
+.Nav .navbar .Nav-active.nav-link {
+  color: white;
 }

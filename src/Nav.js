@@ -22,10 +22,20 @@ export default function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <div className="navbar-nav">
-            <NavLink className="nav-item nav-link" to="/">
+            <NavLink
+              activeClassName="Nav-active"
+              className="nav-item nav-link"
+              exact
+              to="/"
+            >
               Curriculum
             </NavLink>
-            <NavLink className="nav-item nav-link" to="/downloads">
+            <NavLink
+              activeClassName="Nav-active"
+              className="nav-item nav-link"
+              exact
+              to="/downloads"
+            >
               Downloads
             </NavLink>
 
