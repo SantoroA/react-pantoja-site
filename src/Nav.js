@@ -25,6 +25,9 @@ export default function Nav() {
             <NavLink className="nav-item nav-link" to="/downloads">
               Downloads
             </NavLink>
+
+            {/* publicacoes */}
+
             <div className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -50,6 +53,34 @@ export default function Nav() {
                 </NavLink>
                 <NavLink className="nav-item nav-link" to="/livros">
                   Livros
+                </NavLink>
+              </div>
+            </div>
+
+            {/* parceiros */}
+
+            <div className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="/"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Colaboradores
+              </a>
+              <div
+                className="dropdown-menu"
+                id="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+              >
+                <NavLink className="nav-item nav-link" to="/parceiros">
+                  Parceiros
+                </NavLink>
+                <NavLink className="nav-item nav-link" to="/alunos">
+                  Orientandos
                 </NavLink>
               </div>
             </div>
