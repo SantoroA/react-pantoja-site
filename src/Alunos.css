@@ -1,0 +1,11 @@
+.Alunos .lattesImage {
+  height: 24px;
+}
+.Alunos .bioPhoto {
+  width: 100%;
+  border-radius: 0 30% 30% 0;
+}
+.Alunos a {
+  font-size: 1.5em;
+  color: #183153;
+}
