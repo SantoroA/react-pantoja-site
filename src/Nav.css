@@ -4,6 +4,10 @@
 .Nav .navbar #dropdown-menu {
   background-color: #dce6f4;
 }
+.Nav .navbar .navbar-toggler-icon {
+  height: 100%;
+  color: #dce6f4;
+}
 .Nav .navbar .nav-link {
   color: #81a1ce;
 }
