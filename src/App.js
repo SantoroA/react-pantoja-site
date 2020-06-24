@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import Navbar from "./Navbar";
 import Curriculum from "./Curriculum";
 import Journals from "./Journals";
 import Conferencias from "./Conferencias";
@@ -15,6 +16,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Curriculum} />
         <Route exact path="/journals" component={Journals} />
