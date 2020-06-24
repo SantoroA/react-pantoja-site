@@ -6,6 +6,9 @@ export default function Nav() {
   return (
     <div className="Nav">
       <nav className="navbar navbar-expand-lg fixed-top">
+        <NavLink className="navbar-brand" to="/">
+          Pantoja
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
